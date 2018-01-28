@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bwie.project.activity.GoodsActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/glv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></android.support.v7.widget.RecyclerView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/goods_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/dian"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="6dp"
+                android:button="@null"
+                android:drawableTop="@drawable/shops"
+                android:gravity="center"
+                android:text="店铺"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/keFu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:padding="6dp"
+                android:drawableTop="@drawable/icon_kefu"
+                android:gravity="center"
+                android:text="客服"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/collect"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:padding="6dp"
+                android:drawableTop="@drawable/shoucang"
+                android:gravity="center"
+                android:text="收藏"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/collect_cart"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="4"
+            android:background="@color/addCart"
+            android:text="加入购物车" />
+
+        <Button
+            android:id="@+id/nowBuy"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_weight="4"
+            android:background="@color/buy"
+            android:text="立即购买" />
+    </LinearLayout>
+</LinearLayout>

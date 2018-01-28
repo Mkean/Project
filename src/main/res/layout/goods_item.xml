@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.youth.banner.Banner
+        android:id="@+id/gbanner"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"></com.youth.banner.Banner>
+
+    <TextView
+        android:id="@+id/g_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="ASDASD"
+        android:textColor="@color/GoodsTitleColor"
+        android:textSize="26sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/goods_js"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.5"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="ASDASD"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/goods_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="6.5"
+            android:gravity="end"
+            android:text="ASDAS"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/goods_newPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="6"
+            android:text="ASDAS"
+            android:textColor="@color/price"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>

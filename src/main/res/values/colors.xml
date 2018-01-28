@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="addCart">#FD7801</color>
+    <color name="buy">#D01B3E</color>
+    <color name="GoodsTitleColor">#000000</color>
+    <color name="price">#DDAE82</color>
+    <color name="checkbox_checked">#FF5500</color>
+    <color name="checkbox_normal">#6D7073</color>
+</resources>
